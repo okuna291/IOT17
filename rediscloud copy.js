@@ -1,6 +1,6 @@
 var fs = require('fs');
 var redis = require('redis');
-var client = redis.createClient(14556, 'redis-14556.c15.us-east-1-2.ec2.cloud.redislabs.com', {no_ready_check: true});
+var client = redis.createClient(16618, 'redis-14556.c15.us-east-1-2.ec2.cloud.redislabs.com:14556', {no_ready_check: true});
 var Cryptr = require('cryptr');
     
 

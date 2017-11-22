@@ -7,11 +7,11 @@ var http        = require('http');
 //   console.log(status)
 // })
  
-//// Find the first available port. Asynchronously checks, so first port 
-// //// determined as available is returned. 
-// portscanner.findAPortNotInUse(3000, 8000, '127.0.0.1', function(error, port) {
-//   console.log('AVAILABLE PORT AT: ' + port)
-// })
+// Find the first available port. Asynchronously checks, so first port 
+//// determined as available is returned. 
+portscanner.findAPortNotInUse(3000, 8000, '127.0.0.1', function(error, port) {
+  console.log('AVAILABLE PORT AT: ' + port)
+})
  
 
 

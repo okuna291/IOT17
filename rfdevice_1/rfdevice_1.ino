@@ -5,8 +5,8 @@
 device_t role = DEVICE3;
 
 // pin for the Green Led
-int LEDpin = 4;
-int xpin = 2;
+int LEDpin = 2;
+int xpin = 4;
 int xval = 0;
 int xvalp = 0;
 double x;
